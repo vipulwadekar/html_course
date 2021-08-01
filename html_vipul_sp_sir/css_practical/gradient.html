@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	     <title>Gradient Property</title>
+	<style type="text/css">
+		/*
+	  background-image:linear-gradient(direction,col1,col2,...,coln);
+	  
+	  direction:
+	  by default it is top to bottom.
+	  
+	  to top: from bottom to top
+	  to left: from right to left
+	  to right:from left to right
+	  
+	  diagonal direction:
+	  
+	  to bottom right: from top left to bottom right
+	  to bottom left:  from top right to bottom left.
+	  to top left: from bottom right to top left.
+	  to top right: from bottom left to top right
+	  
+	  direction:angle
+	  45deg,90deg etc
+	*/
+		.bg_gradient{
+			height: 100vh;
+			/*background-image:linear-gradient(180deg,red,white,blue);*/
+			background-image: radial-gradient(circle,white 20%,red 30%,black);
+		}
+	</style>
+</head>
+<body>
+   		<div class="bg_gradient">
+				
+				    Background Gradient
+		</div>
+</body>
+</html>

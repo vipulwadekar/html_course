@@ -1,0 +1,20 @@
+Block Level Elements
+So what is a block-level element? A block-level element is an HTML element that begins a new line on a web page and extends the full width of the available horizontal space of its parent element. It creates large blocks of content like paragraphs or page divisions. In fact, most HTML elements are block-level elements.
+
+Block-level elements are used within the HTML document's body. They can contain inline elements, as well as other block-level elements.
+
+Inline Elements
+In contrast to a block-level element, an inline element:
+
+It can begin within a line.
+It does not start a new line.
+Its width only extends as far as it is defined by its tags. 
+An example of an inline element is the <strong>, which makes the font of the text content contained within boldface. An inline element generally only contains other inline elements, or it can contain nothing at all, such as the <br /> break tag.
+
+There is also a third type of element in HTML: those that aren't displayed at all. These elements provide information about the page but aren't displayed when rendered in a Web browser.
+
+For example:
+
+<style> defines styles and stylesheets.
+<meta> defines meta data.
+<head> is the HTML document element that holds these elements.

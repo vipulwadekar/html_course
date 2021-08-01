@@ -1,0 +1,81 @@
+/*css property start*/
+h1{
+	display: inline;
+	/*color:red;*/
+	/*color:#10A4ED;
+	font-weight:normal;*/
+	
+	/* display:inline; */
+	/* display:inline-block; */
+	/*display:none;*/
+	border-style:dotted;
+	width:800px;
+}
+p{
+	display: inline;
+}
+b,i{
+	display: block;
+}
+
+/*css property end*/
+
+
+/*box shadow property start*/
+.box{
+	width: 300px;
+	height: 300px;
+	border-style:solid;
+	text-align:center;
+	background-color: black;
+	color: white;
+	margin:300px auto;
+	/*
+	  box-shadow:x-offset y-offset blurrness spread color;
+	  
+	*/
+	/*box-shadow:20px 20px #BAB8B8;*/
+	box-shadow:20px 20px  15px 15px #BAB8B8;/*spearding shadow*/
+}
+/*box shadow property end*/
+
+/*background property start*/
+.bg{
+	
+	/*background-image:url('WhatsApp.jpeg');*/
+	background-image:url('galaxy.jpeg');
+	height:500px;
+
+	/*background-repeat:no-repeat;*//*repeat-x|repeat-y|no-repeat*/
+	background-size:cover;
+	background-attachment: fixed;
+	
+}
+
+.bgbox{
+		height:2000px;
+		border-style:solid;
+
+						
+}
+/*background property end*/					
+/*transform property start*/
+				.transform{
+					width:300px;
+					height: 300px;
+					background-color: red;
+					color: white;
+					text-align: center;
+					margin: 200px auto;
+				}
+				.transform:hover{
+				/*transform:translate()|scale()|rotate();
+	   
+	   			transform:translateX(npx);
+	            :translateY(npx);
+				:translate(npx,npx);*/
+				transform: transalte(200px,200px);
+				
+
+				}
+				/*transform property end*/

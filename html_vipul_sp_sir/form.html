@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<!--
+		Form with help of form user can submit info and that can be stored in database.
+
+
+		method = "POST|GET"
+		Name    		:- ________
+		Roll No 		:- ________
+		Date of Birth :- _________
+		
+		type="text" ->data that is i/p user is string
+		type="Number"
+		type="password"
+	-->
+
+		<form method="GET" action="table.html" target="_blank" enctype="multipart/form-data">
+			<fieldset>
+				
+			<legend>Student Information</legend>
+
+			<table border="1">
+				<tr>
+					<td><label for="1">Name:</label></td>
+					<td><input type="text" name="sname" placeholder="Enter your Name" id="1" required>*</td>
+				</tr>
+
+				<tr>
+					<td><label for="2">Roll No:</label></td>
+					<td><input type="Number" name="rno" placeholder="Roll No " id="2" required>*</td>
+				</tr>
+
+				<tr>
+					<td><label for="3">DOB</label></td>
+					<td><input type="Date" name="DOB"  id="3" ></td>
+				</tr>
+
+				<tr>
+					<td><label for="4">Month</label></td>
+					<td><input type="month" name="mn"  id="4" ></td>
+				</tr>
+
+				<tr>
+					<td><label for="5">Time</label></td>
+					<td><input type="time" name="t"  id="5" ></td>
+				</tr>
+				<tr>
+					<td><label for="6">Username:</label></td>
+					<td><input type="email" name="umail" placeholder="Username " id="6" ></td>
+				</tr>
+
+				<tr>
+					<td><label for="7">Password</label></td>
+					<td><input type="password" name="upass" placeholder="password " id="7" ></td>
+				</tr>
+
+				<tr>
+					<td>Upload File : </td>
+					<td><input type="file" name="fname" multiple></td>
+				</tr>
+
+				<td><label for="8">Address:</label></td>
+					<td><textarea type="text" name="add" rows="10" cols="25"></textarea> </td>
+				
+
+				<tr>
+					<td>Select Year : </td>
+					<td>
+						<select name="Year">
+							<option value="FY">First Year</option>
+							<option value="SY">Second Year</option>
+							<option value="TY">Third Year</option>
+							<option value="BE">Fourth Year</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Select Year : </td>
+					<td>
+						<select name="Year" multiple>
+							<option value="FY">First Year</option>
+							<option value="SY">Second Year</option>
+							<option value="TY">Third Year</option>
+							<option value="4">Fourth Year</option>
+							<option value="FiY">Fifth Year</option>
+							<option value="Six">Sixth Year</option>
+							<option value="sev">seventh Year</option>
+							<option value="8">eight year Year</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Select Gender</td>
+					<td>
+						<input type="radio" name="Gender" id=9 value="m" ><label for="9">Male</label>
+						<input type="radio" name="Gender" id=10 value="f"checked><label for="10">Female</label>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Select Courses</td>
+					<td><input type="checkbox" name="Courses" id="10" value="html"><label for="10">HTML</label>
+					<input type="checkbox" name="Courses" id="11" value="css"><label for="10">cSS</label>
+					<input type="checkbox" name="Courses" id="12" value="JS"><label for="10">JavaScript</label>
+					</td>
+				</tr>
+
+				<tr>
+					<td>ID</td>
+					<td>
+						<!-- <input type="hidden" name = "sid" value ="2"-->
+						<!-- <input type="hidden" name = "sid" value ="2" readonly-->
+						<input type="text" name="sid" value="2" readonly>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<input type="submit" name="btn" value="save" required>
+					</td>
+				</tr>
+
+			</table>
+			*Fields are mandatory 
+			<br>
+			
+			</fieldset>
+		</form>
+
+</body>
+</html>

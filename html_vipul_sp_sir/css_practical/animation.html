@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+        <head>
+		        <title>CSS Animation in property</title>
+				<style type="text/css">
+				/*animation start*/
+				.anim{
+					width: 150px;
+					height: 150px;
+					background-color: red;
+					color: white;
+					text-align: center;
+					animation-name: myanim;
+					animation-duration: 5s;
+					position:relative;
+					animation-iteration-count: infinite;
+					/*
+	   				animation: animation-name animation-duration 
+	   				animation-delay animation-iteration-count;
+	 				*/
+
+	/*   0,0(x,y)                           500,0(x,y)
+		|-------------------------------|
+	      	b                               b
+	        				|
+	        				|                              
+						|				 |
+						|
+						|
+						|
+		-------------------------- |(500,500)(x,y)
+	     (0,500)(x,y)
+	 	 
+	 */
+				
+				}
+		@keyframes myanim{
+		from{background-color: green;left:0px;top:0px;}/*initial State*/
+		to{background-color: orange;left:200px;top:0px;}/*final State*/
+				}
+				/*animation end*/
+
+				</style>
+				 			
+		</head>
+		<body>
+		        <div class="anim">
+				
+				css Animmation
+			</div>
+		</body>
+</html>
